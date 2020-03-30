@@ -1,0 +1,36 @@
+<html>
+<head>
+  <title>zangvacneri gumar</title>
+</head>
+<body>
+  <script>
+    
+    let zang_1 = [];
+    let zang_2 = [];
+    let zang_3 = [];
+    const zangChap_1 = +prompt('mutqagreq zangvats 1ini chapy');
+    for(let i = 0; i < zangChap_1; i++){
+      zang_1[i] = +prompt('murqagreq zangvats 1ini tarery');
+    }
+      const zangChap_2 = +prompt('mutqagreq zangvats 2i chapy');
+    for(let i = 0; i < zangChap_2; i++){
+      zang_2[i] = +prompt('murqagreq zangvats 2i tarery');
+      zang_1.push(zang_2[i]);
+    } 
+    document.write(`${zang_1}`);
+
+
+    /*isk ayspes kareli e
+
+    let arr_1 = [1, 2, 3,];
+         let arr_2 = [ ,4, 5, 6];
+         let arr_3 = [arr_1 + arr_2];
+
+         document.write(arr_3);
+console.log(Array.isArray(arr_3));
+
+*/
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>minimum arjeq</title>
+</head>
+<body>
+ <script>
+       
+          const zangChap = +prompt('mutqagreq massivi qanaky')
+          let zang = [];
+
+          for (let i=0; i<zangChap; i++ ){
+          zang[i]=+prompt('murqagreq massivi tarery');
+          document.write(`${zang[i]} </br>`); 
+          }
+         
+          
+          function getMax() {
+            return Math.min.apply(null, zang);
+          }        
+
+         document.write(`massivi nvazaguyn tivn e ${getMax()}`)
+        
+        
+       </script>
+</body>
+</html>

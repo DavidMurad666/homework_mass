@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> krknvox tarer</title>
+
+	  <script type="text/javascript">
+        	
+    const zangChap = +prompt('mutqagreq massivi qanaky');
+	  let zang_1 = [];
+    let zang_2 = [];
+       for(let i = 0; i < zangChap; i++){
+      zang_1[i] = +prompt('enter your number');
+    }
+    
+    for(let i = 0; i < zangChap; i++){
+      let zangTarr = zang_1[i];
+      let krkTarr = zang_2.includes(zangTarr);
+      if(krkTarr === false){
+        zang_2.push(zangTarr);
+      }
+    }
+   document.write(zang_2);
+
+  </script>
+</head>
+<body>
+
+</body>
+</html>

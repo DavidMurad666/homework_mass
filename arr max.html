@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>max arjeq</title>
+</head>
+<body>
+<script type="text/javascript">
+
+          const zangChap = +prompt('mutqagreq massivi qanaky')
+          let zang = [];
+
+          for (let i=0; i<zangChap; i++ ){
+          zang[i]=+prompt('murqagreq massivi tarery');
+          document.write(`${zang[i]} </br>`); 
+          }
+         
+          
+          function getMax() {
+            return Math.max.apply(null, zang);
+          }        
+
+         document.write(`massivi mecaguyn tivn e ${getMax()}`)
+
+</script>
+
+
+</body>
+</html>
